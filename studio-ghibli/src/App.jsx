@@ -10,7 +10,9 @@ function App() {
   return (
     <div className="wrapper">
       <header className="header-container">
-        <Logo />
+        <a href="https://studioghibli.com.br/" target="_blank">
+          <Logo />
+        </a>
         <div className="social-links">
           <a href="#">
             <Facebook />

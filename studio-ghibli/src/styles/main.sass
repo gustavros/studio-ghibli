@@ -25,6 +25,21 @@ body
     display: flex
     gap: 1.938rem
 
+    svg:hover path
+      animation: svg-hover 1.5s ease alternate
+
+@keyframes svg-hover
+  0%
+    stroke-width: 0
+    stroke-dasharray: 1 100
+
+  25%
+    stroke-width: 2
+
+  100%
+    stroke-width: 1
+    stroke-dasharray: 100 1
+
 main
   display: flex
   justify-content: space-between
@@ -79,6 +94,12 @@ main
 
         transform: skew(-21deg)
 
+        &:hover
+          background-color: variables.$green-dark
+          color: variables.$white
+          transform: skew(-21deg)
+          transition: all 0.3s ease-in-out
+
         & > span
           display: inline-block
           transform: skew(21deg)
@@ -104,6 +125,12 @@ main
         background: transparent
 
         transform: skew(-21deg)
+
+        transition: all 0.2s ease-in-out
+
+        &:hover
+          background: variables.$green
+          color: variables.$white
 
         & > span
           display: inline-block
