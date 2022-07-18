@@ -3,8 +3,9 @@ import Instagram from "./assets/icons/Instagram";
 import Logo from "./assets/icons/Logo";
 import Twitter from "./assets/icons/Twitter";
 import Youtube from "./assets/icons/Youtube";
-import { Play } from "phosphor-react";
 import ghosts from "./assets/images/image.png";
+
+import { Play } from "phosphor-react";
 
 function App() {
   return (
