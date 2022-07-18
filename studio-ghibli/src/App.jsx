@@ -1,15 +1,56 @@
+import Facebook from "./components/Facebook";
+import Instagram from "./components/Instagram";
 import Logo from "./components/Logo";
+import Twitter from "./components/Twitter";
+import Youtube from "./components/Youtube";
+import { Play } from "phosphor-react";
+import ghosts from "./assets/image.png";
 
 function App() {
   return (
-    <>
-      <header>
+    <div className="wrapper">
+      <header className="header-container">
         <Logo />
         <div className="social-links">
-          
+          <a href="#">
+            <Facebook />
+          </a>
+          <a href="https://instagram.com/gustavron" target="_blank">
+            <Instagram />
+          </a>
+          <a href="#">
+            <Twitter />
+          </a>
+          <a href="#">
+            <Youtube />
+          </a>
         </div>
       </header>
-    </>
+      <main>
+        <div className="left-main">
+          <h2>HAYAO MIYAZAKI</h2>
+          <h1>A VIAGEM DE CHIHIRO</h1>
+          <p>
+            Chihiro chega a um mundo mágico dominado por uma bruxa. Aqueles que
+            a desobedecem são transformados em animais.
+          </p>
+          <div className="left-main-buttons">
+            <a href="#">
+              <span>
+                <Play size={25} />
+                ASSISTIR AGORA
+              </span>
+            </a>
+            <a href="#">
+              <span>ASSISTA O TRAILER</span>
+            </a>
+          </div>
+        </div>
+        <div className="right-main">
+          <img src={ghosts} alt="Imagem dos fantasmas" />
+        </div>
+      </main>
+    </div>
   );
 }
 

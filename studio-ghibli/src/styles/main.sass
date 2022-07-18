@@ -5,7 +5,113 @@
   padding: 0
   font-family: variables.$font-default
   box-sizing: border-box
+  text-decoration: none
 
 body
-  background: variables.$gradient-default
+  background: variables.$gradient-default variables.$green no-repeat fixed
   color: variables.$white
+  height: 100%
+
+.wrapper
+  padding-inline: 10.313rem
+
+.header-container
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding-block: 2.563rem 4.744rem
+
+  .social-links
+    display: flex
+    gap: 1.938rem
+
+main
+  display: flex
+  justify-content: space-between
+
+  .left-main
+
+    h2
+      font-size: 1.25rem
+      line-height: 1.875rem
+      font-weight: 700
+      letter-spacing: 3%
+
+      margin-bottom: 0.875rem
+
+    h1
+      font-size: 4.25rem
+      font-weight: 900
+      line-height: 109%
+
+      margin-bottom: 1.563rem
+
+    p
+      font-size: 1rem
+      font-weight: 400
+
+      margin-bottom: 2.875rem
+
+    .left-main-buttons
+
+      display: flex
+      gap: 2rem
+
+      a:nth-child(1)
+
+        background-color: variables.$green
+
+        display: flex
+        align-items: center
+        justify-content: center
+        position: relative
+        gap: 0.625rem
+
+        border: 0
+
+        font-size: 1rem
+        font-weight: 500
+        line-height: 28.8px
+        color: variables.$white
+
+        padding-block: 0.5rem
+        padding-inline: 1rem 1.063rem
+
+        transform: skew(-21deg)
+
+        & > span
+          display: inline-block
+          transform: skew(21deg)
+
+          display: flex
+          align-items: center
+          gap: 0.625rem
+
+      a:nth-child(2)
+
+        display: flex
+        align-items: center
+
+        font-size: 1rem
+        font-weight: 500
+        line-height: 28.8px
+        color: variables.$white
+        border: 2px solid variables.$green
+
+        padding-block: 0.5rem
+        padding-inline: 1rem 1.063rem
+
+        background: transparent
+
+        transform: skew(-21deg)
+
+        & > span
+          display: inline-block
+          transform: skew(21deg)
+
+  .right-main
+
+    img
+      position: relative
+      top: -3.5rem
+      right: -3.5rem
