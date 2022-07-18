@@ -38,13 +38,16 @@ function App() {
             a desobedecem são transformados em animais.
           </p>
           <div className="left-main-buttons">
-            <a href="#">
+            <a
+              href="https://www.netflix.com/watch/60023642?source=35"
+              target="_blank"
+            >
               <span>
                 <Play size={25} />
                 ASSISTIR AGORA
               </span>
             </a>
-            <a href="#">
+            <a href="https://youtu.be/SgZI655GgHk" target="_blank">
               <span>ASSISTA O TRAILER</span>
             </a>
           </div>
