@@ -25,4 +25,4 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 > Também usei o Prettier para ajudar na formatação.
 
-[⬆ Voltar ao topo](studio-ghibli)<br>
+[⬆ Voltar ao topo](https://github.com/gustavros/studio-ghibli)<br>
