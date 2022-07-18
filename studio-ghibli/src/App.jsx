@@ -1,10 +1,10 @@
-import Facebook from "./components/Facebook";
-import Instagram from "./components/Instagram";
-import Logo from "./components/Logo";
-import Twitter from "./components/Twitter";
-import Youtube from "./components/Youtube";
+import Facebook from "./assets/icons/Facebook";
+import Instagram from "./assets/icons/Instagram";
+import Logo from "./assets/icons/Logo";
+import Twitter from "./assets/icons/Twitter";
+import Youtube from "./assets/icons/Youtube";
 import { Play } from "phosphor-react";
-import ghosts from "./assets/image.png";
+import ghosts from "./assets/images/image.png";
 
 function App() {
   return (

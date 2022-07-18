@@ -109,9 +109,124 @@ main
           display: inline-block
           transform: skew(21deg)
 
+          display: flex
+          align-items: center
+          justify-content: center
+
   .right-main
 
     img
       position: relative
       top: -3.5rem
       right: -3.5rem
+
+@media screen and ( max-width: 1220px  )
+
+  .wrapper
+    padding-inline: 8.313rem
+
+  main
+    display: flex
+    flex-direction: column-reverse
+
+  .right-main
+
+    img
+      width: 25vw
+      position: relative
+      top: -3.5rem
+      right: -3.5rem
+
+@media screen and ( max-width: 768px  )
+
+  .wrapper
+    padding-inline: 8.313rem
+
+  main
+    display: flex
+    flex-direction: column-reverse
+
+  .right-main
+
+    img
+      width: 60%
+      height: auto
+      transform: translateX(-40px)
+
+@media screen and ( max-width: 675px  )
+
+  .wrapper
+    padding-inline: 4.313rem
+    padding-bottom: 2rem
+
+  .header-container
+    display: flex
+    flex-direction: column
+    gap: 1.25rem
+
+    justify-content: center
+    align-items: center
+
+  .social-links
+    display: flex
+    flex-direction: row
+    gap: 1.938rem
+
+  main
+
+    .right-main
+      display: flex
+
+      img
+        width: 60%
+        height: auto
+        margin: 0 auto
+
+    .left-main-buttons
+
+      display: flex
+      flex-direction: column
+
+      a:nth-child(2)
+
+        display: flex
+        align-items: center
+
+        font-size: 1rem
+        font-weight: 500
+        line-height: 28.8px
+        color: variables.$white
+        border: 2px solid variables.$green
+
+        padding-block: 0.5rem
+        padding-inline: 1rem 1.063rem
+
+        background: transparent
+
+        transform: skew(-21deg)
+
+        & > span
+          display: inline-block
+          transform: skew(21deg)
+
+          display: flex
+          align-items: center
+          justify-content: center
+          margin: 0 auto
+
+@media screen and ( max-width: 375px  )
+
+  .wrapper
+    padding-inline: 1.313rem
+    padding-bottom: 1rem
+
+  main
+
+    .right-main
+
+      display: flex
+
+      img
+        width: 60%
+        height: auto
+        margin: 0 auto
