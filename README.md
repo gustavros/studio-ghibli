@@ -1,8 +1,8 @@
 # Studio Ghibli
 
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/gustavros/README-template?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/gustavros/README-template?style=for-the-badge)
 
 ![image_example](https://user-images.githubusercontent.com/92998471/179486016-9ef7d1c7-2220-4057-9ada-b7f67a5d5ede.png)
 
